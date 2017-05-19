@@ -10,7 +10,7 @@ RUN apt-get install -y python2.7-dev \
 
 RUN mkdir /docker_on_rails
 
-WORKDIR /myapp
+WORKDIR /docker_on_rails
 
 ENV BUNDLE_JOBS=4
 
