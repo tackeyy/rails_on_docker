@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+  mysql:
+    image: mysql:5.7.11
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+  docker_on_rails:
+    build: .
+    command: /docker_on_rails/script/start.sh
+    volumes:
+      - .:/docker_on_rails
+    ports:
+      - 1234:1234 # debug port
+      - 3000:3000
+    depends_on:
+      - mysql
+    stdin_open: true
+    tty: true
