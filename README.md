@@ -54,7 +54,7 @@ $ open http://localhost:3000/
 
 # FAQ
 
-## ' ERROR: Couldn’t connect to Docker daemon. You might need to start Docker for Mac. '
+## ERROR: Couldn’t connect to Docker daemon. You might need to start Docker for Mac.
 
 Dockerアプリを起動してください。
 
