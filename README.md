@@ -35,7 +35,7 @@ Railsを触りたいけど環境構築でつまずつということがなくな
 
 ```
 $ cd ~ && mkdir dev && cd dev
-$ git clone https://github.com/tackeyy/rails_on_docker.git
+$ git clone https://github.com/tackeyy/rails_on_docker.git　&& cd rails_on_docker
 ```
 
 ## Rails quickstart
@@ -51,6 +51,12 @@ $ open http://localhost:3000/
 <a href="https://gyazo.com/84ec0a07ae2f34a9ddc99f74778a29f0"><img src="https://i.gyazo.com/84ec0a07ae2f34a9ddc99f74778a29f0.png" alt="https://gyazo.com/84ec0a07ae2f34a9ddc99f74778a29f0" width="1440"/></a>
 
 いえーい　٩(ˊᗜˋ*)و
+
+# FAQ
+
+## ERROR: Couldn’t connect to Docker daemon. You might need to start Docker for Mac.
+
+Dockerアプリを起動してください。
 
 # Refs
 
