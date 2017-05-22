@@ -7,11 +7,11 @@ services:
       - 3306:3306
     environment:
       - MYSQL_ROOT_PASSWORD=password
-  docker_on_rails:
+  rails_on_docker:
     build: .
-    command: /docker_on_rails/script/start.sh
+    command: /rails_on_docker/script/start.sh
     volumes:
-      - .:/docker_on_rails
+      - .:/rails_on_docker
     ports:
       - 1234:1234 # debug port
       - 3000:3000

@@ -1,4 +1,4 @@
-# docker_on_rails
+# rails_on_docker
 
 RailsをDockerの上で動かすためのベースとなるファイルを用意したリポジトリです。    　   
 READMEにそってコマンドを実行するだけでローカル環境に依存せずRailsを使用できる環境をセットアップできます。
@@ -35,13 +35,13 @@ Railsを触りたいけど環境構築でつまずつということがなくな
 
 ```
 $ cd ~ && mkdir dev && cd dev
-$ git clone https://github.com/tackeyy/docker_on_rails.git `
+$ git clone https://github.com/tackeyy/rails_on_docker.git `
 ```
 
 ## Rails quickstart
 
 ```
-$ docker-compose run docker_on_rails rails new . --force --database=mysql --skip-bundle
+$ docker-compose run rails_on_docker rails new . --force --database=mysql --skip-bundle
 $ cp -f templates/config/database.yml config/
 $ docker-compose build
 $ docker-compose up
