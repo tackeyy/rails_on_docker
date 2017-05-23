@@ -35,7 +35,7 @@ Railsを触りたいけど環境構築でつまずつということがなくな
 
 ```
 $ cd ~ && mkdir dev && cd dev
-$ git clone https://github.com/tackeyy/rails_on_docker.git　&& cd rails_on_docker
+$ git clone https://github.com/tackeyy/rails_on_docker.git && cd rails_on_docker
 ```
 
 ## Rails quickstart
